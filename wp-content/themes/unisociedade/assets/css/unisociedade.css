@@ -1,0 +1,140 @@
+/**
+* Unisociedade
+*/
+
+/*--------------------------------------------------------------
+# All
+--------------------------------------------------------------*/
+
+@font-face {
+    font-family: Lastica;
+    src: url(../fonts/lastica.ttf);
+  }
+
+@font-face {
+    font-family: Bespoke;
+    src: url(../fonts/bespoke.ttf);
+  }
+
+.text-justify{
+    text-align: justify;
+}
+
+.erro{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 200px;
+    margin-bottom: 350px;
+}
+
+/*--------------------------------------------------------------
+# TOPBAR
+--------------------------------------------------------------*/
+#topbar {
+    z-index: 3000 !important;
+}
+#topbar .navbartop .mobile-nav-toggle-top{
+    float: left;
+}
+#topbar .navbar ul li a {
+    color: #00223B;    
+}
+#topbar .navbar ul li ul li a {
+    color: #00223B;    
+}
+#topbar .navbar ul li a:hover {
+    color: #0e4770;    
+}
+
+@media (max-width: 950px) {
+    #topbar{
+        display: none !important;
+    }
+}
+
+.search-form input[type=text]{
+    position: relative;
+    height: 25px;
+    width: 150px;
+    top: -1px;left: 0;
+    border: 1px solid #00223B;
+    background-color: #fff;
+    color: #00223B;
+    border-radius: 2px;
+    font-family: Bespoke;
+    font-size: 10px;
+}
+.search-form input[type=submit]{
+    position: relative;
+    height: 25px;
+    width: 80px;
+    top: -1px;
+    left: -5px;
+    border: 1px solid #00223B;
+    background-color: #14c4ed;
+    color: #00223B;
+    border-radius: 2px;
+    font-family: Bespoke;
+    font-size: 10px;
+}
+
+.google-translate {
+    display: block;
+    position: relative;
+    margin-top: 3px;
+}
+
+.google-translate select {
+    position: absolute;
+    height: 25px;
+    width: 110%;
+    top: -8px;
+    border: 1px solid #00223B;
+    background-color: #14c4ed;
+    color: #00223B;
+    border-radius: 2px;
+    font-family: Bespoke;
+    font-size: 10px;
+}
+
+.google-translate select:hover,.search-form input[type=submit]:hover {
+    background-color: #0e4770;
+    color: #14c4ed;
+}
+
+@media (max-width: 950px) {
+    .google-translate {
+        position: absolute;
+        left: 33%;
+        top: 25px;
+    }
+}
+/*--------------------------------------------------------------
+# HEADER
+--------------------------------------------------------------*/
+
+#header .logo span{
+    position: relative;
+    font-size: 25px;
+    color:#14c4ed;
+    font-weight: 700;
+    top: 10px;
+}
+
+.navbar a, .navbar a:focus {
+    font-size: 15px;
+    text-transform: none;
+}
+
+/*--------------------------------------------------------------
+# POSTS
+--------------------------------------------------------------*/
+
+#main.post{
+    min-height: 600px;
+    padding-top: 30px;
+}
