@@ -138,3 +138,9 @@
     min-height: 600px;
     padding-top: 30px;
 }
+
+@media (max-width: 950px) {
+    #main.post{        
+        padding-top: 80px;
+    }
+}
