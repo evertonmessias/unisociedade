@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   max-height: 75px;
   margin-top: 10px;
-  margin-left: 25px;
+  margin-left: 0;
   float: left;
 }
 
