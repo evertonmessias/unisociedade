@@ -119,10 +119,10 @@
 
 #header .logo span{
     position: relative;
-    font-size: 25px;
+    font-size: 22px;
     color:#14c4ed;
     font-weight: 700;
-    top: 10px;
+    top: 38px;
 }
 
 .navbar a, .navbar a:focus {

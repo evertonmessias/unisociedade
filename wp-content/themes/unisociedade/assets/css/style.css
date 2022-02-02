@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #00223B;
   transition: all 0.5s;
   z-index: 997;
-  padding: 5px;
+  padding: 10px;
   top: 40px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   font-family: Bespoke, sans-serif;
@@ -175,8 +175,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #555555;
 }
 #header .logo img {
-  max-height: 100px;
+  max-height: 75px;
   margin-top: 10px;
+  margin-left: 25px;
+  float: left;
 }
 
 /**
