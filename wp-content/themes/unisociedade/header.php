@@ -53,8 +53,8 @@
 
 			<nav id="navbar" class="navbar order-last order-lg-0">
 				<ul>
-					<li><a class="nav-link scrollto " href="#hero">Início</a></li>
-					<li class="dropdown"><a class="nav-link scrollto" href="#about"><span>Sobre nós</span> <i class="bi bi-chevron-down"></i></a>
+					<!--<li><a class="nav-link scrollto " href="#hero">Início</a></li>-->
+					<li class="dropdown"><a class="nav-link scrollto" href="#features"><span>Projetos</span> <i class="bi bi-chevron-down"></i></a>
 						<ul>
 							<li class="dropdown"><a href="#"><span>Link 1.1</span> <i class="bi bi-chevron-right"></i></a>
 								<ul>
@@ -90,13 +90,13 @@
 							</li>
 						</ul>
 					</li>
-					<li><a class="nav-link scrollto" href="#news">Notícias</a></li>
-					<li><a class="nav-link scrollto" href="#gallery">Galeria</a></li>
+					<li><a class="nav-link scrollto" href="#notify">Participe</a></li>
+					<li><a class="nav-link scrollto" href="#contact">Contato</a></li>
 				</ul>
 				<i class="bi bi-list mobile-nav-toggle"></i>
 				<div id="topforms">
 					<div class="search-form"><?php echo get_search_form() ?></div>
-					<div id="google_translate_element" class="google-translate"></div>
+					<!--<div id="google_translate_element" class="google-translate"></div>-->
 				</div>
 			</nav><!-- .navbar -->
 

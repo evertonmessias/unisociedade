@@ -47,7 +47,7 @@
 
 <main id="main">
 
-	<!-- ======= Featured Services Section ======= -->
+	<!-- ======= Featured Services Section ======= 
 	<section id="featured-services" class="featured-services">
 		<div class="container" data-aos="fade-up">
 
@@ -87,7 +87,7 @@
 			</div>
 
 		</div>
-	</section><!-- End Featured Services Section -->
+	</section> End Featured Services Section -->
 
 	<!-- ======= About Us Section ======= -->
 	<section id="about" class="about">

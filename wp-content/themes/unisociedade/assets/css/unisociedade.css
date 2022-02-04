@@ -39,15 +39,17 @@
     margin: 0;padding: 0;
     display: block;
     position: relative;
-    margin-left: 50px;
-    margin-top: -10px;
-    height: 50px;
+    margin-left: 30px;
+    margin-top: -7px;
+    width: 220px;
+    height: 25px;
+    float: right;
 }
 
 .search-form input[type=text]{
     position: relative;
-    height: 25px;
-    width: 150px;
+    height: 24px;
+    width: 55%;
     top: -1px;left: 0;
     border: 1px solid #00223B;
     background-color: #fff;
@@ -58,16 +60,18 @@
 }
 .search-form input[type=submit]{
     position: relative;
-    height: 25px;
-    width: 80px;
+    height: 25px;    
+    width: 35%;
     top: -1px;
-    left: -10px;
+    left: -7px;
+    padding-top: 2px;
     border: 1px solid #00223B;
     background-color: #14c4ed;
     color: #00223B;
     border-radius: 2px;
     font-family: Bespoke;
     font-size: 10px;
+    text-align: center;
 }
 
 .google-translate {
@@ -79,7 +83,7 @@
 .google-translate select {
     position: absolute;
     height: 25px;
-    width: 230px;
+    width: 90%;
     border: 1px solid #00223B;
     background-color: #14c4ed;
     color: #00223B;
@@ -126,11 +130,12 @@
 
 #main.post{
     min-height: 600px;
-    padding-top: 30px;
+    padding-top: 0px;
+    margin-top: -24px;
 }
 
 @media (max-width: 950px) {
     #main.post{        
-        padding-top: 80px;
+        padding-top: 0px;
     }
 }
