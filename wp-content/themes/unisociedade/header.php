@@ -43,29 +43,6 @@
 
 <body>
 
-	<!-- ======= Top Bar ======= -->
-	<div id="topbar" class="d-flex align-items-center fixed-top">
-		<div class="container d-flex align-items-center justify-content-center justify-content-md-between">
-			<nav id="navbartop" class="navbar order-last order-lg-0">
-				<ul>
-					<li class="dropdown"><a class="nav-link scrollto" href="#"><span>Projetos</span> <i class="bi bitop bi-chevron-down"></i></a>
-						<ul>
-							<li><a href="#">Drop Down 1</a></li>
-							<li><a href="#">Drop Down 2</a></li>
-							<li><a href="#">Drop Down 3</a></li>
-							<li><a href="#">Drop Down 4</a></li>
-						</ul>
-					</li>
-					<li><a class="nav-link scrollto" href="#contact">Contato</a></li>
-					<li><a class="nav-link scrollto" href="#notify">Participe!</a></li>
-				</ul>				
-			</nav><!-- .navbar -->
-			<div class="search-form"><?php echo get_search_form() ?></div>
-			<div id="google_translate_element" class="google-translate"></div>
-			
-		</div>
-	</div>
-
 	<!-- ======= Header ======= -->
 	<header id="header" class="fixed-top">
 		<div class="container d-flex align-items-center">
@@ -78,29 +55,29 @@
 				<ul>
 					<li><a class="nav-link scrollto " href="#hero">Início</a></li>
 					<li class="dropdown"><a class="nav-link scrollto" href="#about"><span>Sobre nós</span> <i class="bi bi-chevron-down"></i></a>
-						<ul>							
+						<ul>
 							<li class="dropdown"><a href="#"><span>Link 1.1</span> <i class="bi bi-chevron-right"></i></a>
-								<ul>									
+								<ul>
 									<li><a href="#">Link 1.1.1</a></li>
 									<li><a href="#">Link 1.1.2</a></li>
 									<li><a href="#">Link 1.1.3</a></li>
-									<li><a href="#">Link 1.1.4</a></li>									
+									<li><a href="#">Link 1.1.4</a></li>
 								</ul>
 							</li>
 							<li><a href="#">Link 1.2</a></li>
-							
+
 						</ul>
-					</li>					
+					</li>
 					<li class="dropdown"><a class="nav-link scrollto" href="#departments"><span>Iniciativas</span> <i class="bi bi-chevron-down"></i></a>
-						<ul>							
+						<ul>
 							<li class="dropdown"><a href="#"><span>Link 2.1</span> <i class="bi bi-chevron-right"></i></a>
-								<ul>									
+								<ul>
 									<li><a href="#">Link 2.1.1</a></li>
 									<li><a href="#">Link 2.1.2</a></li>
 									<li><a href="#">Link 2.1.3</a></li>
 									<li><a href="#">Link 2.1.4</a></li>
 									<li><a href="#">Link 2.1.5</a></li>
-									<li><a href="#">Link 2.1.6</a></li>									
+									<li><a href="#">Link 2.1.6</a></li>
 								</ul>
 							</li>
 							<li><a href="#">Link 2.2</a></li>
@@ -110,13 +87,17 @@
 									<li><a href="#">Link 2.3.2</a></li>
 									<li><a href="#">Link 2.3.3</a></li>
 								</ul>
-							</li>							
+							</li>
 						</ul>
 					</li>
 					<li><a class="nav-link scrollto" href="#news">Notícias</a></li>
-					<li><a class="nav-link scrollto" href="#gallery">Galeria</a></li>				
+					<li><a class="nav-link scrollto" href="#gallery">Galeria</a></li>
 				</ul>
 				<i class="bi bi-list mobile-nav-toggle"></i>
+				<div id="topforms">
+					<div class="search-form"><?php echo get_search_form() ?></div>
+					<div id="google_translate_element" class="google-translate"></div>
+				</div>
 			</nav><!-- .navbar -->
 
 		</div>
