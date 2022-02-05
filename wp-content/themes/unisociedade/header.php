@@ -26,7 +26,7 @@
 	<link href="<?php echo SITEPATH; ?>assets/css/style.css" rel="stylesheet">
 	<link href="<?php echo SITEPATH; ?>assets/css/unisociedade.css" rel="stylesheet">
 
-	<!-- Google Translate -->
+	<!-- Google Translate 
 	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 	<script type="text/javascript">
 		function googleTranslateElementInit() {
@@ -35,7 +35,7 @@
 				},
 				'google_translate_element');
 		}
-	</script>
+	</script>-->
 
 	<?php wp_head(); ?>
 
@@ -53,45 +53,11 @@
 
 			<nav id="navbar" class="navbar order-last order-lg-0">
 				<ul>
-					<!--<li><a class="nav-link scrollto " href="#hero">Início</a></li>-->
-					<li class="dropdown"><a class="nav-link scrollto" href="#features"><span>Projetos</span> <i class="bi bi-chevron-down"></i></a>
-						<ul>
-							<li class="dropdown"><a href="#"><span>Link 1.1</span> <i class="bi bi-chevron-right"></i></a>
-								<ul>
-									<li><a href="#">Link 1.1.1</a></li>
-									<li><a href="#">Link 1.1.2</a></li>
-									<li><a href="#">Link 1.1.3</a></li>
-									<li><a href="#">Link 1.1.4</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Link 1.2</a></li>
-
-						</ul>
-					</li>
-					<li class="dropdown"><a class="nav-link scrollto" href="#departments"><span>Iniciativas</span> <i class="bi bi-chevron-down"></i></a>
-						<ul>
-							<li class="dropdown"><a href="#"><span>Link 2.1</span> <i class="bi bi-chevron-right"></i></a>
-								<ul>
-									<li><a href="#">Link 2.1.1</a></li>
-									<li><a href="#">Link 2.1.2</a></li>
-									<li><a href="#">Link 2.1.3</a></li>
-									<li><a href="#">Link 2.1.4</a></li>
-									<li><a href="#">Link 2.1.5</a></li>
-									<li><a href="#">Link 2.1.6</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Link 2.2</a></li>
-							<li class="dropdown"><a href="#"><span>Link 2.3</span> <i class="bi bi-chevron-right"></i></a>
-								<ul>
-									<li><a href="#">Link 2.3.1</a></li>
-									<li><a href="#">Link 2.3.2</a></li>
-									<li><a href="#">Link 2.3.3</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li><a class="nav-link scrollto" href="#notify">Participe</a></li>
-					<li><a class="nav-link scrollto" href="#contact">Contato</a></li>
+					<li><a class="nav-link scrollto " href="<?php if (!is_home()) echo '/'; ?>#sobre">Sobre nós</a></li>
+					<li><a class="nav-link scrollto" href="/<?php if (is_page('projetos')) echo '#'; ?>projetos">Projetos</a></li>
+					<li><a class="nav-link scrollto" href="/<?php if (is_page('iniciativas')) echo '#'; ?>iniciativas">Iniciativas</a></li>
+					<li><a class="nav-link scrollto" href="/<?php if (is_page('participe')) echo '#'; ?>participe">Participe</a></li>
+					<li><a class="nav-link scrollto" href="<?php if (!is_home()) echo '/'; ?>#contact">Contato</a></li>
 				</ul>
 				<i class="bi bi-list mobile-nav-toggle"></i>
 				<div id="topforms">

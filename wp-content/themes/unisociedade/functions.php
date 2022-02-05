@@ -19,7 +19,7 @@ function tf_wp_admin_login_logo()
 { ?>
   <style type="text/css">
     #login{
-      margin-top: 100px !important;
+      margin-top: 50px !important;
       background-color: #fff;
       padding: 0% 0 0 !important;
       padding: 20px !important;
@@ -33,6 +33,9 @@ function tf_wp_admin_login_logo()
       height: 130px;
     }
     #login .galogin-powered {
+      display: none;
+    }
+    .language-switcher{
       display: none;
     }
   </style>

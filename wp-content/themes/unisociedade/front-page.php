@@ -90,7 +90,7 @@
 	</section> End Featured Services Section -->
 
 	<!-- ======= About Us Section ======= -->
-	<section id="about" class="about">
+	<section id="sobre" class="about">
 		<div class="container" data-aos="fade-up">
 		<?php
               $argsSobre = array(
@@ -167,141 +167,12 @@
 		</div>
 	</section><!-- End Counts Section -->
 
-	<!-- ======= Features Section ======= -->
-	<section id="features" class="features">
-		<div class="container" data-aos="fade-up">
-
-			<div class="row">
-				<div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
-					<div class="icon-box mt-5 mt-lg-0">
-						<i class="bx bx-receipt"></i>
-						<h4>Est labore ad</h4>
-						<p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-					</div>
-					<div class="icon-box mt-5">
-						<i class="bx bx-cube-alt"></i>
-						<h4>Harum esse qui</h4>
-						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-					</div>
-					<div class="icon-box mt-5">
-						<i class="bx bx-images"></i>
-						<h4>Aut occaecati</h4>
-						<p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-					</div>
-					<div class="icon-box mt-5">
-						<i class="bx bx-shield"></i>
-						<h4>Beatae veritatis</h4>
-						<p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-					</div>
-				</div>
-				<div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("<?php echo SITEPATH; ?>assets/img/features.jpg");' data-aos="zoom-in"></div>
-			</div>
-
-		</div>
-	</section><!-- End Features Section -->
-
-	<!-- ======= Departments Section ======= -->
-	<section id="departments" class="departments">
-		<div class="container" data-aos="fade-up">
-
-			<div class="section-title">
-				<h2>Iniciativas Unicamp</h2>
-				<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-			</div>
-
-			<div class="row" data-aos="fade-up" data-aos-delay="100">
-				<div class="col-lg-4 mb-5 mb-lg-0">
-					<ul class="nav nav-tabs flex-column">
-						<li class="nav-item">
-							<a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
-								<h4>Cultura</h4>
-								<p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p>
-							</a>
-						</li>
-						<li class="nav-item mt-2">
-							<a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-								<h4>Esportes</h4>
-								<p>Voluptas vel esse repudiandae quo excepturi.</p>
-							</a>
-						</li>
-						<li class="nav-item mt-2">
-							<a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
-								<h4>Ciência</h4>
-								<p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p>
-							</a>
-						</li>
-						<li class="nav-item mt-2">
-							<a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
-								<h4>Projetos</h4>
-								<p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
-							</a>
-						</li>
-						<li class="nav-item mt-2">
-							<a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
-								<h4>Eventos</h4>
-								<p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
-							</a>
-						</li>
-						<li class="nav-item mt-2">
-							<a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
-								<h4>Cursos</h4>
-								<p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-lg-8">
-					<div class="tab-content">
-						<div class="tab-pane active show" id="tab-1">
-							<h3>Cultura</h3>
-							<p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-							<img src="<?php echo SITEPATH; ?>assets/img/departments/cultura.jpg" alt="" class="img-fluid">
-							<br><p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-						</div>
-						<div class="tab-pane" id="tab-2">
-							<h3>Esportes</h3>
-							<p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-							<img src="<?php echo SITEPATH; ?>assets/img/departments/esportes.jpg" alt="" class="img-fluid">
-							<br><p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-						</div>
-						<div class="tab-pane" id="tab-3">
-							<h3>Ciência</h3>
-							<p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-							<img src="<?php echo SITEPATH; ?>assets/img/departments/ciencia.png" alt="" class="img-fluid">
-							<br><p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-						</div>
-						<div class="tab-pane" id="tab-4">
-							<h3>Projetos</h3>
-							<p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-							<img src="<?php echo SITEPATH; ?>assets/img/departments/projetos.jpg" alt="" class="img-fluid">
-							<br><p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-						</div>
-						<div class="tab-pane" id="tab-5">
-							<h3>Eventos</h3>
-							<p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-							<img src="<?php echo SITEPATH; ?>assets/img/departments/eventos.png" alt="" class="img-fluid">
-							<br><p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-						</div>
-						<div class="tab-pane" id="tab-6">
-							<h3>Cursos</h3>
-							<p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-							<img src="<?php echo SITEPATH; ?>assets/img/departments/cursos.jpg" alt="" class="img-fluid">
-							<br><p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</section><!-- End Departments Section -->
-
 		<!-- ======= Services Section ======= -->
 		<section id="news" class="services services">
 		<div class="container" data-aos="fade-up">
 
 			<div class="section-title">
 				<h2>Notícias</h2>
-				<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
 			</div>
 
 			<div class="row">
@@ -340,97 +211,12 @@
 		</div>
 	</section><!-- End Services Section -->
 
-	<!-- ======= Testimonials Section ======= -->
-	<section id="testimonials" class="testimonials">
-		<div class="container" data-aos="fade-up">
-
-			<div class="section-title">
-				<h2>Comentários</h2>
-				<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-			</div>
-
-			<div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-				<div class="swiper-wrapper">
-
-					<div class="swiper-slide">
-						<div class="testimonial-item">
-							<p>
-								<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-								Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-								<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-							</p>
-							<img src="<?php echo SITEPATH; ?>assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-							<h3>Saul Goodman</h3>
-							<h4>Ceo &amp; Founder</h4>
-						</div>
-					</div><!-- End testimonial item -->
-
-					<div class="swiper-slide">
-						<div class="testimonial-item">
-							<p>
-								<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-								Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-								<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-							</p>
-							<img src="<?php echo SITEPATH; ?>assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-							<h3>Sara Wilsson</h3>
-							<h4>Designer</h4>
-						</div>
-					</div><!-- End testimonial item -->
-
-					<div class="swiper-slide">
-						<div class="testimonial-item">
-							<p>
-								<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-								Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-								<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-							</p>
-							<img src="<?php echo SITEPATH; ?>assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-							<h3>Jena Karlis</h3>
-							<h4>Store Owner</h4>
-						</div>
-					</div><!-- End testimonial item -->
-
-					<div class="swiper-slide">
-						<div class="testimonial-item">
-							<p>
-								<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-								Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-								<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-							</p>
-							<img src="<?php echo SITEPATH; ?>assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-							<h3>Matt Brandon</h3>
-							<h4>Freelancer</h4>
-						</div>
-					</div><!-- End testimonial item -->
-
-					<div class="swiper-slide">
-						<div class="testimonial-item">
-							<p>
-								<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-								Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-								<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-							</p>
-							<img src="<?php echo SITEPATH; ?>assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-							<h3>John Larson</h3>
-							<h4>Entrepreneur</h4>
-						</div>
-					</div><!-- End testimonial item -->
-
-				</div>
-				<div class="swiper-pagination"></div>
-			</div>
-
-		</div>
-	</section><!-- End Testimonials Section -->
-
 	<!-- ======= Gallery Section ======= -->
 	<section id="gallery" class="gallery">
 		<div class="container" data-aos="fade-up">
 
 			<div class="section-title">
 				<h2>Galeria</h2>
-				<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
 			</div>
 
 			<div class="gallery-slider swiper">
@@ -450,83 +236,12 @@
 		</div>
 	</section><!-- End Gallery Section -->
 
-	<!-- ======= Frequently Asked Questioins Section ======= -->
-	<section id="faq" class="faq section-bg">
-		<div class="container" data-aos="fade-up">
-
-			<div class="section-title">
-				<h2>Perguntas Frequentes</h2>
-				<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-			</div>
-
-			<ul class="faq-list">
-
-				<li>
-					<div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-					<div id="faq1" class="collapse" data-bs-parent=".faq-list">
-						<p>
-							Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-						</p>
-					</div>
-				</li>
-
-				<li>
-					<div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-					<div id="faq2" class="collapse" data-bs-parent=".faq-list">
-						<p>
-							Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-						</p>
-					</div>
-				</li>
-
-				<li>
-					<div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-					<div id="faq3" class="collapse" data-bs-parent=".faq-list">
-						<p>
-							Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-						</p>
-					</div>
-				</li>
-
-				<li>
-					<div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-					<div id="faq4" class="collapse" data-bs-parent=".faq-list">
-						<p>
-							Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-						</p>
-					</div>
-				</li>
-
-				<li>
-					<div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-					<div id="faq5" class="collapse" data-bs-parent=".faq-list">
-						<p>
-							Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-						</p>
-					</div>
-				</li>
-
-				<li>
-					<div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-					<div id="faq6" class="collapse" data-bs-parent=".faq-list">
-						<p>
-							Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
-						</p>
-					</div>
-				</li>
-
-			</ul>
-
-		</div>
-	</section><!-- End Frequently Asked Questioins Section -->
-
 	<!-- ======= Contact Section ======= -->
 	<section id="contact" class="contact">
 		<div class="container">
 
 			<div class="section-title">
 				<h2>Contato</h2>
-				<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
 			</div>
 
 		</div>
