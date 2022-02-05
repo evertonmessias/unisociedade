@@ -61,13 +61,13 @@ add_filter('login_headertext', 'tf_wp_admin_login_logo_title');
 
 
 //************* Hide admin bar for users
-add_action('after_setup_theme', 'remove_admin_bar');
 function remove_admin_bar()
 {
   if (current_user_can('administrator') || is_admin()) {
     show_admin_bar(false);
   }
 }
+add_action('after_setup_theme', 'remove_admin_bar');
 
 //************* URL from breadcrumbs
 function url_active()
@@ -87,30 +87,3 @@ add_action('init', 'myprefix_unregister_tags');
 
 //************* Add thumbnails
 add_theme_support('post-thumbnails', array('post'));
-
-
-//************* Add Menu
-function register_my_menu()
-{
-  register_nav_menu('unisociedade-nav', __('unisociedade NAV'));
-}
-add_action('init', 'register_my_menu');
-
-
-//************* Change Menu li id
-function my_li_id_handler($id, $item, $args)
-{
-  $id = $item->post_name;
-  return $id;
-}
-add_filter('nav_menu_item_id', 'my_li_id_handler', 10, 3);
-
-//************* Removes rich text editor
-//add_filter( 'user_can_richedit' , '__return_false');
-
-//************* Add custom action
-function mensagem()
-{
-    echo "OIIIIIIII"; 
-}
-add_action( 'mensagem', 'mensagem' );

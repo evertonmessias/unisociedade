@@ -22,14 +22,19 @@
     </div>
   </section><!-- Breadcrumbs Section -->
 
-	<!-- ======= Features Section ======= -->
-	<section id="participe" class="features">
-		<div class="container" data-aos="fade-up">
+		<!-- ======= Portfolio Details Section ======= -->
+    <section id="participe" class="portfolio-details">
 
-			PARTICIPE
+    <div class="container">
 
-		</div>
-	</section><!-- End Features Section -->
+      <div class="portfolio-description text-justify">
+        <?php the_content() ?>
+        <h1>&nbsp;</h1>
+      </div>
+      
+    </div>
+
+  </section><!-- End Portfolio Details Section -->
 
 </main><!-- End #main -->
 <?php get_footer(); ?>
