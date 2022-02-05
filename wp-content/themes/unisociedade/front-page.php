@@ -167,89 +167,16 @@
 		</div>
 	</section><!-- End Counts Section -->
 
-		<!-- ======= Services Section ======= -->
-		<section id="news" class="services services">
-		<div class="container" data-aos="fade-up">
-
-			<div class="section-title">
-				<h2>Notícias</h2>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-					<div class="icon"><i class="fas fa-heartbeat"></i></div>
-					<h4 class="title"><a href="">Lorem Ipsum</a></h4>
-					<p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-				</div>
-				<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-					<div class="icon"><i class="fas fa-pills"></i></div>
-					<h4 class="title"><a href="">Dolor Sitema</a></h4>
-					<p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-				</div>
-				<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-					<div class="icon"><i class="fas fa-hospital-user"></i></div>
-					<h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-					<p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-				</div>
-				<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-					<div class="icon"><i class="fas fa-dna"></i></div>
-					<h4 class="title"><a href="">Magni Dolores</a></h4>
-					<p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-				</div>
-				<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-					<div class="icon"><i class="fas fa-wheelchair"></i></div>
-					<h4 class="title"><a href="">Nemo Enim</a></h4>
-					<p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-				</div>
-				<div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-					<div class="icon"><i class="fas fa-notes-medical"></i></div>
-					<h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-					<p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-				</div>
-			</div>
-
-		</div>
-	</section><!-- End Services Section -->
-
-	<!-- ======= Gallery Section ======= -->
-	<section id="gallery" class="gallery">
-		<div class="container" data-aos="fade-up">
-
-			<div class="section-title">
-				<h2>Galeria</h2>
-			</div>
-
-			<div class="gallery-slider swiper">
-				<div class="swiper-wrapper align-items-center">
-					<div class="swiper-slide"><a class="gallery-lightbox" href="<?php echo SITEPATH; ?>assets/img/gallery/gallery-1.jpg"><img src="<?php echo SITEPATH; ?>assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
-					<div class="swiper-slide"><a class="gallery-lightbox" href="<?php echo SITEPATH; ?>assets/img/gallery/gallery-2.jpg"><img src="<?php echo SITEPATH; ?>assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
-					<div class="swiper-slide"><a class="gallery-lightbox" href="<?php echo SITEPATH; ?>assets/img/gallery/gallery-3.jpg"><img src="<?php echo SITEPATH; ?>assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
-					<div class="swiper-slide"><a class="gallery-lightbox" href="<?php echo SITEPATH; ?>assets/img/gallery/gallery-4.jpg"><img src="<?php echo SITEPATH; ?>assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
-					<div class="swiper-slide"><a class="gallery-lightbox" href="<?php echo SITEPATH; ?>assets/img/gallery/gallery-5.jpg"><img src="<?php echo SITEPATH; ?>assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
-					<div class="swiper-slide"><a class="gallery-lightbox" href="<?php echo SITEPATH; ?>assets/img/gallery/gallery-6.jpg"><img src="<?php echo SITEPATH; ?>assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
-					<div class="swiper-slide"><a class="gallery-lightbox" href="<?php echo SITEPATH; ?>assets/img/gallery/gallery-7.jpg"><img src="<?php echo SITEPATH; ?>assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
-					<div class="swiper-slide"><a class="gallery-lightbox" href="<?php echo SITEPATH; ?>assets/img/gallery/gallery-8.jpg"><img src="<?php echo SITEPATH; ?>assets/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
-				</div>
-				<div class="swiper-pagination"></div>
-			</div>
-
-		</div>
-	</section><!-- End Gallery Section -->
-
 	<!-- ======= Contact Section ======= -->
 	<section id="contact" class="contact">
 		<div class="container">
-
 			<div class="section-title">
 				<h2>Contato</h2>
 			</div>
-
 		</div>
-
 		<div>
 			<iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14738.422731472343!2d-47.4311377!3d-22.5564393!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x564de56e787352df!2sUNICAMP%20-%20Faculdade%20de%20Ci%C3%AAncias%20Aplicadas!5e0!3m2!1spt-BR!2sbr!4v1643122553212!5m2!1spt-BR!2sbr" frameborder="0" allowfullscreen></iframe>
 		</div>
-
 		<div class="container">
 
 			<div class="row mt-5">
