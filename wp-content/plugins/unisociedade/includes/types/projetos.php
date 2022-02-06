@@ -25,7 +25,7 @@ class projetos
 		];
 		$args = [
 			'labels'				=> $labels,
-			'supports'              => ['title' , 'editor'  /*, 'thumbnail', 'author', 'excerpt'*/],			
+			'supports'              => ['title' , 'thumbnail'/*,'editor' ,'author', 'excerpt'*/],			
 			'hierarchical'          => false,
 			'public'                => true,
 			'show_ui'               => true,
@@ -108,4 +108,4 @@ function role_caps_projetos()
 add_action('admin_init', 'role_caps_projetos', 999);
 
 // POSTMETA ************************************************
-include ABSPATH . '/wp-content/plugins/condep/includes/types/postmeta/postmeta-projetos.php';
+include ABSPATH . '/wp-content/plugins/unisociedade/includes/types/postmeta/postmeta-projetos.php';

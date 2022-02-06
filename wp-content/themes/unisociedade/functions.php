@@ -60,7 +60,7 @@ function tf_wp_admin_login_logo_title($headertext)
 add_filter('login_headertext', 'tf_wp_admin_login_logo_title');
 
 
-//************* Hide admin bar for users
+/************* Hide admin bar for users
 function remove_admin_bar()
 {
   if (current_user_can('administrator') || is_admin()) {
@@ -68,6 +68,7 @@ function remove_admin_bar()
   }
 }
 add_action('after_setup_theme', 'remove_admin_bar');
+*/
 
 //************* URL from breadcrumbs
 function url_active()

@@ -119,6 +119,10 @@
     top: 38px;
 }
 
+#header.header-margin-top{
+    margin-top: 32px;
+}
+
 .navbar a, .navbar a:focus {
     font-size: 15px;
     text-transform: none;

@@ -44,11 +44,11 @@
 <body>
 
 	<!-- ======= Header ======= -->
-	<header id="header" class="fixed-top">
+	<header id="header" class="fixed-top <?php if (is_user_logged_in()) echo 'header-margin-top'; ?>">
 		<div class="container d-flex align-items-center">
 
-			<a href="/" class="logo me-auto"><img src="<?php echo SITEPATH; ?>assets/img/logo.png" alt="">
-				&nbsp;<span>UNI.SOCIEDADE</span>
+			<a href="/" class="logo me-auto"><img src="<?php echo get_option('home_input_2'); ?>" alt="">
+				&nbsp;<span><?php echo get_option('home_input_1'); ?></span>
 			</a>
 
 			<nav id="navbar" class="navbar order-last order-lg-0">

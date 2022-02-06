@@ -22,28 +22,15 @@
     border-spacing: 0;
 }
 
-.tcongrega{
+.settings-unisociedade .wp-editor-wrap{
+    width: 150%;
+}
+
+.meta-box-sortables input{
     width: 100%;
-    border-spacing: 0;
 }
 
-.tcongrega td{
-    padding: 8px;
-}
-
-.tcongrega i{
-    font-size: 20px;
-    margin-top: 4px;
-}
-.tcongrega i.bx-x{
-    color: red;
-}
-
-.tcongrega .linha00{
-    display: none;
-}
-
-.settings-unisociedade table img, .tcongrega img{
+.settings-unisociedade table img{
     height: 100%;   
 }
 
@@ -51,40 +38,31 @@
     width: 7em;
     font-weight: 400;
 }
-.settings-unisociedade input[type=email],.settings-unisociedade input[type=text],.icongrega{
+.settings-unisociedade input[type=email],.settings-unisociedade input[type=text]{
     width: 40em;
     font-weight: 400;
 }
-.settings-unisociedade textarea, .tcongrega textarea{
+.settings-unisociedade textarea{
     width: 100%;
     font-weight: 400;
     margin-bottom: -3px;
 }
 
-.settings-unisociedade table td:nth-child(1),.settings-unisociedade table td:nth-child(3),
-.tcongrega td:nth-child(1){
+.settings-unisociedade table td:nth-child(1),.settings-unisociedade table td:nth-child(3){
     width: 4em;
 }
 
-.settings-unisociedade table td:nth-child(1) div,
-.tcongrega td:nth-child(1) div{
+.settings-unisociedade table td:nth-child(1) div{
     text-align: center !important;
     font-weight: 600;
 }
-.settings-unisociedade table td:nth-child(2),
-.tcongrega td:nth-child(2){
+.settings-unisociedade table td:nth-child(2){
     width: 40em;   
 }
 .settings-unisociedade table td:nth-child(2) input{
     width: 100%;
 }
-.tcongrega td:nth-child(2) input{
-    width: 95%;
-}
+
 #heateor_sss_meta{
     display: none;
-}
-.management input[type=text], .committee input[type=text]{
-    width: 100%;
-    font-weight: 400;
 }
