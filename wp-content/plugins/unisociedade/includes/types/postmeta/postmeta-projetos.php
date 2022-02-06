@@ -11,7 +11,7 @@ add_action('add_meta_boxes', 'field_box_projetos_descricao');
 function field_projetos_descricao($post)
 {
 ?>
-    <p><input type="text" name="projetos_descricao" value="<?php echo get_post_meta($post->ID, 'projetos_descricao', true); ?>"></p>        
+    <p><input class="postmeta-projetos" type="text" name="projetos_descricao" value="<?php echo get_post_meta($post->ID, 'projetos_descricao', true); ?>"></p>        
 <?php
 }
 
@@ -26,7 +26,7 @@ add_action('add_meta_boxes', 'field_box_projetos_date');
 function field_projetos_date($post)
 {    
 ?>
-    <input type="text" name="projetos_date" value="<?php echo get_post_meta($post->ID, 'projetos_date', true); ?>">
+    <input class="postmeta-projetos" type="text" name="projetos_date" value="<?php echo get_post_meta($post->ID, 'projetos_date', true); ?>">
 <?php
 }
 
@@ -41,7 +41,7 @@ add_action('add_meta_boxes', 'field_box_projetos_area');
 function field_projetos_area($post)
 {
 ?>
-    <p><input type="text" name="projetos_area" value="<?php echo get_post_meta($post->ID, 'projetos_area', true); ?>"></p>        
+    <p><input class="postmeta-projetos" type="text" name="projetos_area" value="<?php echo get_post_meta($post->ID, 'projetos_area', true); ?>"></p>        
 <?php
 }
 
@@ -56,7 +56,7 @@ add_action('add_meta_boxes', 'field_box_projetos_unidade');
 function field_projetos_unidade($post)
 {
 ?>
-    <p><input type="text" name="projetos_unidade" value="<?php echo get_post_meta($post->ID, 'projetos_unidade', true); ?>"></p>        
+    <p><input class="postmeta-projetos" type="text" name="projetos_unidade" value="<?php echo get_post_meta($post->ID, 'projetos_unidade', true); ?>"></p>        
 <?php
 }
 
@@ -71,7 +71,7 @@ add_action('add_meta_boxes', 'field_box_projetos_comunidade');
 function field_projetos_comunidade($post)
 {
 ?>
-    <p><input type="text" name="projetos_comunidade" value="<?php echo get_post_meta($post->ID, 'projetos_comunidade', true); ?>"></p>        
+    <p><input class="postmeta-projetos" type="text" name="projetos_comunidade" value="<?php echo get_post_meta($post->ID, 'projetos_comunidade', true); ?>"></p>        
 <?php
 }
 
@@ -86,7 +86,7 @@ add_action('add_meta_boxes', 'field_box_projetos_cidade');
 function field_projetos_cidade($post)
 {
 ?>
-    <p><input type="text" name="projetos_cidade" value="<?php echo get_post_meta($post->ID, 'projetos_cidade', true); ?>"></p>        
+    <p><input class="postmeta-projetos" type="text" name="projetos_cidade" value="<?php echo get_post_meta($post->ID, 'projetos_cidade', true); ?>"></p>        
 <?php
 }
 
@@ -101,7 +101,7 @@ add_action('add_meta_boxes', 'field_box_projetos_beneficiados');
 function field_projetos_beneficiados($post)
 {
 ?>
-    <p><input type="text" name="projetos_beneficiados" value="<?php echo get_post_meta($post->ID, 'projetos_beneficiados', true); ?>"></p>        
+    <p><input class="postmeta-projetos" type="text" name="projetos_beneficiados" value="<?php echo get_post_meta($post->ID, 'projetos_beneficiados', true); ?>"></p>        
 <?php
 }
 
@@ -116,7 +116,7 @@ add_action('add_meta_boxes', 'field_box_projetos_coordenador');
 function field_projetos_coordenador($post)
 {
 ?>
-    <p><input type="text" name="projetos_coordenador" value="<?php echo get_post_meta($post->ID, 'projetos_coordenador', true); ?>"></p>        
+    <p><input class="postmeta-projetos" type="text" name="projetos_coordenador" value="<?php echo get_post_meta($post->ID, 'projetos_coordenador', true); ?>"></p>        
 <?php
 }
 
@@ -131,7 +131,7 @@ add_action('add_meta_boxes', 'field_box_projetos_email');
 function field_projetos_email($post)
 {
 ?>
-    <p><input type="email" name="projetos_email" value="<?php echo get_post_meta($post->ID, 'projetos_email', true); ?>"></p>        
+    <p><input class="postmeta-projetos" type="email" name="projetos_email" value="<?php echo get_post_meta($post->ID, 'projetos_email', true); ?>"></p>        
 <?php
 }
 
@@ -146,7 +146,7 @@ add_action('add_meta_boxes', 'field_box_projetos_telefone');
 function field_projetos_telefone($post)
 {
 ?>
-    <p><input type="text" name="projetos_telefone" value="<?php echo get_post_meta($post->ID, 'projetos_telefone', true); ?>"></p>        
+    <p><input class="postmeta-projetos" type="text" name="projetos_telefone" value="<?php echo get_post_meta($post->ID, 'projetos_telefone', true); ?>"></p>        
 <?php
 }
 
@@ -161,7 +161,7 @@ add_action('add_meta_boxes', 'field_box_projetos_status');
 function field_projetos_status($post)
 {
 ?>
-    <p><input type="text" name="projetos_status" value="<?php echo get_post_meta($post->ID, 'projetos_status', true); ?>"></p>        
+    <p><input class="postmeta-projetos" type="text" name="projetos_status" value="<?php echo get_post_meta($post->ID, 'projetos_status', true); ?>"></p>        
 <?php
 }
 

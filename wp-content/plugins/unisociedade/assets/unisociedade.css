@@ -26,10 +26,6 @@
     width: 150%;
 }
 
-.meta-box-sortables input{
-    width: 100%;
-}
-
 .settings-unisociedade table img{
     height: 100%;   
 }
@@ -65,4 +61,8 @@
 
 #heateor_sss_meta{
     display: none;
+}
+
+.meta-box-sortables input.postmeta-projetos{
+    width: 100%;
 }
