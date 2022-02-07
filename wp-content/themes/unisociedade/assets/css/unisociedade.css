@@ -143,3 +143,31 @@
         padding-top: 0px;
     }
 }
+
+/*--------------------------------------------------------------
+# ARCHIVE PROJETOS
+--------------------------------------------------------------*/
+.portfolio-item{
+    padding: 0;margin: 0;
+    border: 1px solid red;
+}
+
+.col-projetos{
+    border: 1px solid #ccc;
+}
+.col-projetos1{
+    float: left;
+    padding: 5px;
+
+}
+.col-projetos1 img{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    height: 150px;
+}
+.col-projetos2{
+    float: right;
+    padding-top: 20px;
+    padding-left: 10px;
+}
