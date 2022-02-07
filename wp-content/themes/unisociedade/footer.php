@@ -89,6 +89,7 @@
 
   <!-- Template Main JS File -->
   <script src="<?php echo SITEPATH; ?>assets/js/main.js"></script>
+  <script src="<?php echo SITEPATH; ?>assets/js/quicksearch.js"></script>
   <script src="<?php echo SITEPATH; ?>assets/js/unisociedade.js"></script>
 
   <?php wp_footer(); ?>
