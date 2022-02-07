@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   #header {
     padding: 15px 0;
-    margin-top: -40px;
+    margin-top: 0;
   }
 }
 #header.header-scrolled {
@@ -318,6 +318,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+    margin-left: 50px;
   }
 
   .navbar ul {

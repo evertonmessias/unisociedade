@@ -101,10 +101,8 @@
 }
 
 @media (max-width: 950px) {
-    .google-translate {
-        position: absolute;
-        left: 33%;
-        top: 25px;
+    #topforms {
+        display: none;
     }
 }
 /*--------------------------------------------------------------
@@ -140,7 +138,7 @@
 
 @media (max-width: 950px) {
     #main.post{        
-        padding-top: 0px;
+        padding-top: 55px;
     }
 }
 
