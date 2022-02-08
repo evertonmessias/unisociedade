@@ -34,8 +34,8 @@
 				</div>
 				<h4>&nbsp;</h4>
 				<div class="col-lg-12 d-flex justify-content-center">
-					<ul id="portfolio-flters">
-						<li class="filter-active"><a href="/projetos">TODOS</a></li>
+					<ul id="portfolio-flters" class="portfolio-ul">
+						<a href="/projetos"><li class="filter-active">TODOS</li></a>
 						<?php
 						foreach ($categories as $category) {
 							if ($category->slug != "sem-categoria") { ?>
