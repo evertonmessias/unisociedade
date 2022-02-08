@@ -53,8 +53,8 @@ add_action('admin_enqueue_scripts', 'style_and_script');
 //Rename menu iten Admin
 function wd_admin_menu_rename()
 {
-	//global $menu;
-	//$menu[5][0] = 'Portfolio';
+	global $menu;
+	$menu[5][0] = 'Iniciativas';
 }
 add_action('admin_menu', 'wd_admin_menu_rename');
 
@@ -62,7 +62,7 @@ add_action('admin_menu', 'wd_admin_menu_rename');
 // ***************** Add About in Menu
 function menu_projetos()
 {
-	add_submenu_page('edit.php?post_type=projetos', 'Sobre', 'Sobre', 'edit_posts', 'about', 'function_about', 3);
+	add_submenu_page('options-general.php', 'Sobre Unisociedade', 'Sobre Unisociedade', 'edit_posts', 'about', 'function_about', 10);
 }
 add_action('admin_menu', 'menu_projetos');
 

@@ -63,6 +63,6 @@
     display: none;
 }
 
-.meta-box-sortables input.postmeta-projetos{
+.meta-box-sortables input.postmeta-projetos,.meta-box-sortables input.postmeta-post{
     width: 100%;
 }

@@ -24,6 +24,9 @@ include ABSPATH . '/wp-content/plugins/unisociedade/includes/types/projetos.php'
 // SETTINGS ************************************************
 include ABSPATH . '/wp-content/plugins/unisociedade/includes/settings.php';
 
+// POSTMETA POST ************************************************
+include ABSPATH . '/wp-content/plugins/unisociedade/includes/types/postmeta/postmeta-post.php';
+
 // OBJECTS *************************************************
 $projetos = new projetos();
 
