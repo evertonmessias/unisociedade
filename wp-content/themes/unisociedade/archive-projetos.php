@@ -30,12 +30,12 @@
 			?>
 			<div class="row" data-aos="fade-up" data-aos-delay="100">
 				<div class="col-12">
-					<input type="text" class="quicksearch" placeholder="Pesquisar Projeto" />
+					<input type="text" class="quicksearch" placeholder="Pesquisar Todos os Projetos" />
 				</div>
 				<h4>&nbsp;</h4>
 				<div class="col-lg-12 d-flex justify-content-center">
 					<ul id="portfolio-flters" class="portfolio-ul">
-						<a href="/projetos"><li class="filter-active">TODOS</li></a>
+						<a href="/projetos"><li class="filter-active">Todos</li></a>
 						<?php
 						foreach ($categories as $category) {
 							if ($category->slug != "sem-categoria") { ?>

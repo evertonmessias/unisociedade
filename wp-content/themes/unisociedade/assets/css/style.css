@@ -554,8 +554,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 15px 8px 15px;
   font-size: 16px;
   font-weight: 600;
-  line-height: 1;
-  text-transform: uppercase;
+  line-height: 1;  
   color: #444444;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
