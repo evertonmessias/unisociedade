@@ -127,6 +127,30 @@
 }
 
 /*--------------------------------------------------------------
+# CONTACT
+--------------------------------------------------------------*/
+.contact .php-email-form {
+    padding: 15px;
+}
+.contact .php-email-form input {
+    border-radius: 4px;
+}
+.contact .php-email-form textarea {
+    height: 117px !important;
+}
+.contact .php-email-form button {
+    display: block !important;
+    position: relative !important;
+    margin: 0 auto !important;
+    width: 120px !important;
+    background-color: #00223B !important;
+    color: #fff !important;
+}
+.contact .php-email-form button:hover {
+    background-color: #0e4770 !important;
+}
+
+/*--------------------------------------------------------------
 # POSTS
 --------------------------------------------------------------*/
 
