@@ -15,8 +15,7 @@
 					</li>
 					<!--<li>
             <?php //if (url_active()[2] != "") echo url_active()[2]; 
-			?>
-			
+			?>			
           </li>-->
 				</ol>
 			</div>
