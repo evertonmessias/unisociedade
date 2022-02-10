@@ -30,7 +30,7 @@ function field_projetos_date($post)
 <?php
 }
 
-// Área **********************************
+/* Área **********************************
 
 function field_box_projetos_area()
 {
@@ -43,7 +43,7 @@ function field_projetos_area($post)
 ?>
     <p><input class="postmeta-projetos" type="text" name="projetos_area" value="<?php echo get_post_meta($post->ID, 'projetos_area', true); ?>"></p>        
 <?php
-}
+}*/
 
 // Unidade **********************************
 
