@@ -197,3 +197,29 @@
     padding-top: 20px;
     padding-left: 10px;    
 }
+/*--------------------------------------------------------------
+# PAGE INICIATIVAS
+--------------------------------------------------------------*/
+.iniciativas h4, .iniciativas p{
+    text-align: center;
+}
+.iniciativas .btns{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 200px;    
+    height: 40px;
+    line-height: 40px;  
+}
+.iniciativas .btn-iniciativas{
+    background-color: #00223B;
+    color: #fff;
+    padding: 8px;
+    border-radius: 2px;
+    text-align: center;
+    margin-right: 5px;
+}
+.iniciativas .btn-iniciativas:hover{
+    background-color: #0e4770;
+    color:#fff !important
+}

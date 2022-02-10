@@ -16,6 +16,7 @@
 					<!--<li>
             <?php //if (url_active()[2] != "") echo url_active()[2]; 
 			?>
+			
           </li>-->
 				</ol>
 			</div>
@@ -23,7 +24,7 @@
 	</section><!-- Breadcrumbs Section -->
 
 	<!-- ======= Departments Section ======= -->
-	<section id="iniciativas" class="departments">
+	<section id="iniciativas" class="departments iniciativas">
 		<div class="container" data-aos="fade-up">
 			<?php
 			$categories = get_terms('category', array('order' => 'DESC'));
@@ -67,13 +68,16 @@
 										<h3><?php echo $category->name; ?></h3>
 										<hr>
 										<h4><?php echo get_the_title() ?></h4>
+										<br><br>
 										<img src="<?php if (has_post_thumbnail()) the_post_thumbnail_url('full');
 													else echo SITEPATH . "assets/img/logo.png"; ?>" class="img-fluid" title="<?php echo get_the_title() ?>">
+										<br><br>
+										<p><?php echo get_post_meta($post->ID, 'post_descricao', true); ?></p>
 										<br>
-										<p><strong>Descrição:</strong> <?php echo get_post_meta($post->ID, 'post_descricao', true); ?></p>
-										<br>
-										<a href="<?php echo get_the_permalink() ?>"><strong>Leia mais</strong></a>&emsp;
-										<a href="/<?php echo $category->slug; ?>"><strong>Todas</strong></a>
+										<div class="btns">
+										<a class="btn-iniciativas" href="<?php echo get_the_permalink() ?>"><strong>Leia mais</strong></a>
+										<a class="btn-iniciativas" href="/<?php echo $category->slug; ?>"><strong>Ver Todas</strong></a>
+										</div>
 									</div>
 						<?php }
 								$x++;
