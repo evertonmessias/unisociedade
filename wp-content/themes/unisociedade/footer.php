@@ -4,7 +4,7 @@
   		<div class="container">
   			<div class="row">
 
-  				<div class="col-lg-3 col-md-6">
+  				<div class="col-lg-4 col-md-6">
   					<div class="footer-info">
   						<h3>FCA</h3>
   						<p>
@@ -23,35 +23,23 @@
   					</div>
   				</div>
 
-  				<div class="col-lg-2 col-md-6 footer-links">
-  					<h4>Links 1</h4>
+  				<div class="col-lg-4 col-md-6 footer-links">
+  					<h4>Links</h4>
   					<ul>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 1</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 2</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 3</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 4</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 5</a></li>
+					  	<li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto" href="/">Início</a></li>  						
+  						<li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto" href="<?php if (!is_home()) echo '/'; ?>#sobre">Sobre nós</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto" href="<?php if (!is_home()) echo '/'; ?>#contact">Contato</a></li>  							
+  						<li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto" href="/<?php if (is_archive('projetos')) echo '#'; ?>projetos">Projetos</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto" href="<?php if (!is_home()) echo '/'; ?>#participe">Participe</a></li>
   					</ul>
   				</div>
 
-  				<div class="col-lg-3 col-md-6 footer-links">
-  					<h4>Links 2</h4>
-  					<ul>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 1</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 2</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 3</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 4</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 5</a></li>
-  					</ul>
-  				</div>
-
-  				<div id="notify" class="col-lg-4 col-md-6 footer-newsletter">
+  				<div id="participe" class="col-lg-4 col-md-6 footer-newsletter">
   					<h4>Participe!</h4>
-  					<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-  					<form action="" method="post">
-  						<input type="email" name="email"><input type="submit" value="Participar">
-  					</form>
-
+  					<p>Envie seu e-mail:</p>
+  					<div class="php-email-form2">
+						<?php echo do_shortcode('[wpforms id="100"]'); ?>						
+					</div>
   				</div>
 
   			</div>

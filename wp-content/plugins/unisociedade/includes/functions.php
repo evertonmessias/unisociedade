@@ -53,8 +53,8 @@ add_action('admin_enqueue_scripts', 'style_and_script');
 //Rename menu iten Admin
 function wd_admin_menu_rename()
 {
-	global $menu;
-	$menu[5][0] = 'Iniciativas';
+	//global $menu;
+	//$menu[5][0] = 'Iniciativas';
 }
 add_action('admin_menu', 'wd_admin_menu_rename');
 
