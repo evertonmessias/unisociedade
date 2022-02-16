@@ -225,9 +225,10 @@
 }
 
 /*--------------------------------------------------------------
-# PARTICIPE
+# FIQUE POR DENTRO
 --------------------------------------------------------------*/
 #footer .php-email-form2 {
+    margin-top: -40px;
     margin-left: -10px;
 }
 #footer .php-email-form2 input {
@@ -236,12 +237,12 @@
     border: 1px solid #ccc !important;
     height: 40px;
 }
-#footer .php-email-form2 .wpforms-submit-container{
+
+#footer .php-email-form2 button {  
+    border-radius: 4px;
     position: absolute;
     top: 6px;  
-    left: 50%; 
-}
-#footer .php-email-form2 button {     
+    left: 0;    
     width: 100px !important;
     background-color: #00223B !important;
     color: #fff !important;

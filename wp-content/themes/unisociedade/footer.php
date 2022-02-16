@@ -30,13 +30,12 @@
   						<li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto" href="<?php if (!is_home()) echo '/'; ?>#sobre">Sobre nós</a></li>
   						<li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto" href="<?php if (!is_home()) echo '/'; ?>#contact">Contato</a></li>  							
   						<li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto" href="/<?php if (is_archive('projetos')) echo '#'; ?>projetos">Projetos</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto" href="<?php if (!is_home()) echo '/'; ?>#participe">Participe</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto" href="/<?php if (is_page('participe')) echo '#'; ?>participe">Participe</a></li>
   					</ul>
   				</div>
 
   				<div id="participe" class="col-lg-4 col-md-6 footer-newsletter">
-  					<h4>Participe!</h4>
-  					<p>Envie seu e-mail:</p>
+  					<h4>Fique por dentro.</h4>  					
   					<div class="php-email-form2">
 						<?php echo do_shortcode('[wpforms id="100"]'); ?>						
 					</div>

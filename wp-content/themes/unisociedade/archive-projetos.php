@@ -68,8 +68,8 @@
 									<a href="<?php the_permalink() ?>" class="details-link" title="Link">
 										<h4><?php the_title() ?></h4>
 									</a>
-									<br>
 									<p><?php echo get_post_meta($post->ID, 'projetos_descricao', true); ?></p>
+									<p><strong>Status:</strong> <?php echo get_post_meta($post->ID, 'projetos_status', true); ?></p>
 								</div>
 							</div>
 				<?php }

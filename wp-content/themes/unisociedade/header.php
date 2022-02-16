@@ -64,7 +64,7 @@
 					</li>
 					<li><a class="nav-link scrollto" href="/<?php if (is_archive('projetos')) echo '#'; ?>projetos">Projetos</a></li>
 					<!--<li><a class="nav-link scrollto" href="/<?php //if (is_page('iniciativas')) echo '#'; ?>iniciativas">Iniciativas</a></li>-->
-					<li><a class="nav-link scrollto" href="<?php if (!is_home()) echo '/'; ?>#participe">Participe</a></li>					
+					<li><a class="nav-link scrollto" href="/<?php if (is_page('participe')) echo '#'; ?>participe">Participe</a></li>					
 				</ul>
 				<i class="bi bi-list mobile-nav-toggle"></i>
 				<div id="topforms">
