@@ -60,6 +60,7 @@
 						<ul>							
 							<li><a class="nav-link scrollto" href="<?php if (!is_home()) echo '/'; ?>#sobre">Sobre nós</a></li>
 							<li><a class="nav-link scrollto" href="<?php if (!is_home()) echo '/'; ?>#contact">Contato</a></li>
+							<li><a class="nav-link scrollto" href="/<?php if (is_page('equipe')) echo '#'; ?>equipe">Equipe</a></li>
 						</ul>
 					</li>
 					<li><a class="nav-link scrollto" href="/<?php if (is_archive('projetos')) echo '#'; ?>projetos">Projetos</a></li>
