@@ -207,7 +207,7 @@
     display: block;
     position: relative;
     margin: 0 auto;
-    width: 200px;    
+    width: 100px;    
     height: 40px;
     line-height: 40px;  
 }
@@ -223,6 +223,14 @@
     background-color: #0e4770;
     color:#fff !important
 }
+
+/*--------------------------------------------------------------
+# EQUIPE
+--------------------------------------------------------------*/
+.equipe img{
+    width: 100%;
+}
+
 
 /*--------------------------------------------------------------
 # FIQUE POR DENTRO

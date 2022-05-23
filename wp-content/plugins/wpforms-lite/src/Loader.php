@@ -65,6 +65,18 @@ class Loader {
 			'name' => 'Forms\Honeypot',
 			'id'   => 'honeypot',
 		];
+
+		$this->classes[] = [
+			'name' => 'Forms\Submission',
+			'id'   => 'submission',
+			'hook' => false,
+			'run'  => false,
+		];
+
+		$this->classes[] = [
+			'name' => 'Forms\Locator',
+			'id'   => 'locator',
+		];
 	}
 
 	/**
@@ -79,6 +91,11 @@ class Loader {
 			[
 				'name' => 'Admin\Notice',
 				'id'   => 'notice',
+			],
+			[
+				'name' => 'Admin\Revisions',
+				'id'   => 'revisions',
+				'hook' => 'admin_init',
 			],
 			[
 				'name' => 'Admin\Addons\AddonsCache',
@@ -125,8 +142,18 @@ class Loader {
 				'hook' => 'current_screen',
 			],
 			[
+				'name'      => 'Admin\Tools\Importers',
+				'hook'      => 'admin_init',
+				'run'       => 'load',
+				'condition' => wp_doing_ajax(),
+			],
+			[
 				'name' => 'Admin\Pages\Addons',
 				'id'   => 'addons_page',
+			],
+			[
+				'name' => 'Admin\Pages\ConstantContact',
+				'hook' => 'admin_init',
 			],
 			[
 				'name' => 'Forms\Fields\Richtext\EntryViewContent',
@@ -134,6 +161,14 @@ class Loader {
 			[
 				'name' => 'Admin\Forms\Search',
 				'id'   => 'forms_search',
+			],
+			[
+				'name' => 'Admin\Forms\Views',
+				'id'   => 'forms_views',
+			],
+			[
+				'name' => 'Admin\Forms\BulkActions',
+				'id'   => 'forms_bulk_actions',
 			]
 		);
 	}
@@ -291,6 +326,7 @@ class Loader {
 
 		// Education features classes.
 		$features = [
+			'LiteConnect',
 			'Builder\Captcha',
 			'Builder\Fields',
 			'Builder\Settings',
@@ -307,12 +343,9 @@ class Loader {
 		];
 
 		foreach ( $features as $feature ) {
-			array_push(
-				$this->classes,
-				[
-					'name' => 'Admin\Education\\' . $feature,
-				]
-			);
+			$this->classes[] = [
+				'name' => 'Admin\Education\\' . $feature,
+			];
 		}
 	}
 

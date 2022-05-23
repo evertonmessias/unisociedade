@@ -1,33 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
+        'pretty_version' => 'dev-develop',
+        'version' => 'dev-develop',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '0bf12b9c7d14b89ed874b10a3898fee6503f0301',
+        'reference' => '55c85b802c0855e8ef87aa4b20f444c4336da80a',
         'name' => 'awesomemotive/wpforms',
         'dev' => true,
     ),
     'versions' => array(
         'awesomemotive/wpforms' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '0bf12b9c7d14b89ed874b10a3898fee6503f0301',
-            'dev_requirement' => false,
-        ),
-        'goodby/csv' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../goodby/csv',
-            'aliases' => array(
-                0 => '9999999-dev',
-            ),
-            'reference' => '0fb8031424b4450638d01f8f1db04fd5d7e28474',
+            'reference' => '55c85b802c0855e8ef87aa4b20f444c4336da80a',
             'dev_requirement' => false,
         ),
         'mk-j/php_xlsxwriter' => array(
@@ -47,7 +36,7 @@
             'aliases' => array(
                 0 => '9999999-dev',
             ),
-            'reference' => 'fa60732bcafd446e9ff858eefa06cdcbae8d9823',
+            'reference' => '0c86f70adfb4d976d59e222d2c36590919158039',
             'dev_requirement' => true,
         ),
         'symfony/css-selector' => array(
@@ -96,12 +85,12 @@
             'dev_requirement' => false,
         ),
         'woocommerce/action-scheduler' => array(
-            'pretty_version' => '3.2.1',
-            'version' => '3.2.1.0',
+            'pretty_version' => '3.4.0',
+            'version' => '3.4.0.0',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../woocommerce/action-scheduler',
             'aliases' => array(),
-            'reference' => '3c24064f115cd55e972d73d5d48f14133ac60b0d',
+            'reference' => '3218a33ff14b968f8cb05de9656c2efa1eeb1330',
             'dev_requirement' => false,
         ),
     ),

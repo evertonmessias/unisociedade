@@ -74,8 +74,7 @@
 										<p><?php echo get_post_meta($post->ID, 'post_descricao', true); ?></p>
 										<br>
 										<div class="btns">
-										<a class="btn-iniciativas" href="<?php echo get_the_permalink() ?>"><strong>Leia mais</strong></a>
-										<a class="btn-iniciativas" href="/<?php echo $category->slug; ?>"><strong>Ver Todas</strong></a>
+											<a class="btn-iniciativas" href="<?php echo get_the_permalink() ?>"><strong>Leia mais</strong></a>
 										</div>
 									</div>
 						<?php }

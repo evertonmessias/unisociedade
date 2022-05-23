@@ -10,7 +10,7 @@
 	<meta content="" name="keywords">
 
 	<!-- Favicons -->
-	<link href="<?php echo SITEPATH; ?>assets/img/favicon.png" rel="icon">
+	<link href="<?php echo get_option('home_input_2'); ?>" rel="icon">
 
 	<!-- Vendor CSS Files -->
 	<link href="<?php echo SITEPATH; ?>assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">

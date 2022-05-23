@@ -9,9 +9,9 @@
   						<h3>FCA</h3>
   						<p>
   							Unicamp <br>
-  							R. Pedro Zaccaria, 1300, Limeira - SP<br><br>
-  							<strong>Phone:</strong> +1 5589 55488 55<br>
-  							<strong>Email:</strong> info@example.com<br>
+  							<?php echo get_option('home_input_14'); ?><br><br>
+  							<strong>Phone:</strong> <?php echo get_option('home_input_12'); ?><br>
+  							<strong>Email:</strong> <?php echo get_option('home_input_13'); ?><br>
   						</p>
   						<div class="social-links mt-3">
   							<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
