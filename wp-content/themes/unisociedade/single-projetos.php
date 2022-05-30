@@ -26,16 +26,16 @@
   <section class="portfolio-details">
     <div class="container">
 
-      <div class="portfolio-details-container">
-        <?php if (has_post_thumbnail()) { ?>
+      <!--<div class="portfolio-details-container">
+        <?php /*if (has_post_thumbnail()) { ?>
           <div class="owl-carousel portfolio-details-carousel">
             <a href="<?php the_post_thumbnail_url('full'); ?>" target="_blank">
               <img src="<?php the_post_thumbnail_url('full'); ?>" class="img-fluid" title="<?php the_title() ?>">
             </a>
           </div>
           <br><br>
-        <?php } ?>
-      </div>
+        <?php } */ ?>
+      </div>-->
 
       <div class="portfolio-description text-justify">
         <ul>
