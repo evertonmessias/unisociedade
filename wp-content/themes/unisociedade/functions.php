@@ -27,7 +27,7 @@ function tf_wp_admin_login_logo()
       border-radius: 5px;
     }
     #login h1 a {
-      background-image: url('<?php echo SITEPATH; ?>assets/img/logo.png');
+      background-image: url('<?php echo get_option('home_input_2'); ?>');
       background-size: 130px;
       width: 130px;
       height: 130px;

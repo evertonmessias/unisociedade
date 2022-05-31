@@ -169,7 +169,7 @@ function field_projetos_status($post)
 
 function field_box_projetos_texto()
 {
-    add_meta_box('projetos_texto_id', 'Outras informações', 'field_projetos_texto', 'projetos');
+    add_meta_box('projetos_texto_id', 'Texto', 'field_projetos_texto', 'projetos');
 }
 add_action('add_meta_boxes',  'field_box_projetos_texto');
 
