@@ -41,7 +41,6 @@
         <ul>
           <li><strong>Descrição:</strong> <?php echo get_post_meta($post->ID, 'projetos_descricao', true); ?></li>
           <li><strong>Data:</strong> <?php echo get_post_meta($post->ID, 'projetos_date', true); ?></li>
-          <li><strong>Área:</strong> <?php echo get_post_meta($post->ID, 'projetos_area', true); ?></li>
           <li><strong>Unidade:</strong> <?php echo get_post_meta($post->ID, 'projetos_unidade', true); ?></li>
           <li><strong>Comunidade:</strong> <?php echo get_post_meta($post->ID, 'projetos_comunidade', true); ?></li>
           <li><strong>Cidade:</strong> <?php echo get_post_meta($post->ID, 'projetos_cidade', true); ?></li>

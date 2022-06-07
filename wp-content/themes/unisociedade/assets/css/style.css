@@ -21,6 +21,10 @@ body {
   color: #444444;
 }
 
+.justify{
+  text-align: justify;
+}
+
 p{
   font-size: 18px;
 }
